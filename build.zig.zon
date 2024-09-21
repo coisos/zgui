@@ -1,0 +1,25 @@
+.{
+    .name = "zgui",
+    .version = "0.5.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "libs",
+        "src",
+        "README.md",
+    },
+    .dependencies = .{
+        .zgpu = .{
+            .url = "git+https://github.com/coisos/zgpu.git#f12cafb1d9199658ac0c987ee0be3f59e2daee50",
+            .hash = "12207e1b3b2af262abd4565bd8da50109a4983abcf3da7fd704b27cd87277bed389f",
+        },
+        .system_sdk = .{
+            .url = "git+https://github.com/coisos/system-sdk.git#340bc2792d22265d0263fde5ac380b53cd65f21b",
+            .hash = "12201e78412e66e0c0e34283382e0b80eaabfafee676812c8a27fb21103cb0165015",
+        },
+        .zglfw = .{
+            .url = "git+https://github.com/coisos/zglfw.git#50f71817dba99db378607602bae374fd0d034516",
+            .hash = "122078d0bde3a32ff0e17e4a767b3e54996260e2f6b4d8c6788265f9ec9b3b0327d0",
+        },
+    },
+}
