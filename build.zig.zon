@@ -18,8 +18,8 @@
             .hash = "12201e78412e66e0c0e34283382e0b80eaabfafee676812c8a27fb21103cb0165015",
         },
         .zglfw = .{
-            .url = "git+https://github.com/coisos/zglfw.git#50f71817dba99db378607602bae374fd0d034516",
-            .hash = "122078d0bde3a32ff0e17e4a767b3e54996260e2f6b4d8c6788265f9ec9b3b0327d0",
+            .url = "git+https://github.com/coisos/zglfw.git#6004c1737302fda193a3d37c1b687ea82f54c83a",
+            .hash = "12209258bd3a664e4aade7bfde3cbf5ebad7d030bef9b44a4e90efd1a5acf4342a9e",
         },
     },
 }
